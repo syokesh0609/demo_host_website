@@ -1,0 +1,97 @@
+.twofa-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+
+.twofa-card {
+  background: white;
+  padding: 40px;
+  width: 400px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+.twofa-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.twofa-user-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.twofa-subtext {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 25px;
+}
+
+.twofa-label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  text-align: center
+}
+
+.otp-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.otp-box {
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.otp-box:focus {
+  border-color: #4c6ef5;
+  outline: none;
+}
+
+.twofa-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-cancel {
+  width: 48%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #ddd;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-verify {
+  width: 48%;
+  padding: 10px;
+  border-radius: 8px;
+  background: #4c6ef5;
+  color: white;
+  border: none;
+  font-size: 14px;
+}
+
+.btn-cancel:hover {
+  background: #ccc;
+}
+
+.btn-verify:hover {
+  background: #3b5bdb;
+}
