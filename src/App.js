@@ -5,7 +5,7 @@ import TwoFactorAuth from "./components/TwoFactor/TwoFactorAuth";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/demo_host_website">
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/login" element={<Login />} />
